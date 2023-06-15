@@ -1,32 +1,38 @@
-<h1> Machine Learning Portfolio </h1>
-<p>This repository contains codes for machine learning, deep learning and data science projects completed by me for academic, self learning and hobby purposes. Presented in form of Jupyter and Colab notebooks.</p>
+# Machine Learning Portfolio
 
-<h2> Instruction for Running Python Notebooks</h2>
-<ol>
-<li> Run notebooks as usual by using a jupyter notebook server, Vscode etc. </li>
-</ol>
-<h2> Projects or Notebooks</h2>
-<ol>
-  <li> <h3>5 Model COVIDPosts:</h3> This is one of the codes I facilitated for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here we implemented 5 Different Models (SVM, XGBoost, Decision Tree Classifer, Extra Tree Classifier and Random Forest Classifer) and compared the result. We used “Constraint@AAAI2021 - COVID19 Fake News Detection” competition datasets that contains 8560 posts about the COVID-19 pandemic. NLTK packages and TF-IDF Vectorization is used to preprocess the dataset before fitting in the models. After prediction Lime was used to interpret the models. </li>
-  
-  <li> <h3>5 Model GeneralPosts:</h3> This is one of the codes I coded for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here we implemented 5 Different Models (SVM, XGBoost, Decision Tree Classifer, Extra Tree Classifier and Random Forest Classifer) and compared the result. We used publically available Twitter15 and Twitter 16 datasets released by J. Ma, W. Gao, and K.-F. Wong, “Detect rumors in microblog posts using propagation structure via kernel learning,” in Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017, pp. 708–717.NLTK packages used to preprocess the dataset before fitting in the models. After prediction Lime was to interpret our models. </li>
-  
-  <li> <h3>BERT COVIDPosts:</h3> This is one of the codes I built for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here we implemented BERT(Bidirectional Encoder Representations from Transformers) Deep Learning framework. We used “Constraint@AAAI2021 - COVID19 Fake News Detection” competition datasets that contains 8560 posts about the COVID-19 pandemic. NLTK packages, Label Encoding and BERT Tokenization is used to preprocess the dataset before fitting in the models. After prediction Lime is used to interpret our models. </li>
-  
-  <li> <h3>BERT GeneralPosts:</h3> This is one of the codes I coded for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here we implemented BERT(Bidirectional Encoder Representations from Transformers) Deep Learning framework.We used publically available Twitter15 and Twitter 16 datasets released by J. Ma, W. Gao, and K.-F. Wong, “Detect rumors in microblog posts using propagation structure via kernel learning,” in Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017, pp. 708–717. NLTK packages, Label Encoding and BERT Tokenization used to preprocess the dataset before fitting in the models. After prediction Lime is used to interpret our models. </li>
-  
-  <li> <h3>CIFAR-10 Image Classification:</h3> This code is an example of a Convolutional Neural Network (CNN) that I implemented to classify images in the CIFAR-10 dataset using the Keras Tuner library. The goal was to find the best set of hyperparameters that could achieve high accuracy. My model architecture included convolutional layers with max pooling and dropout, followed by a fully connected layer and a softmax activation function for the output. I used the Keras Tuner RandomSearch method to search for the best hyperparameters over a defined search space. Finally, I evaluated the best model on the test set and showcased a predicted label for an example image. This code can serve as a starting point for image classification tasks, and I believe it demonstrates my proficiency in designing and optimizing neural networks using Keras Tuner.  </li>
-  
-  <li> <h3>Hybrid Ensemble Model COVIDPosts:</h3> This is one of the codes I compiled for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here a hybrid model consisting of 25 instance of 5 Different Models (SVM, XGBoost, Decision Tree Classifer, Extra Tree Classifier and Random Forest Classifer) with 5 instance from each model with different parameters was implemented . We used “Constraint@AAAI2021 - COVID19 Fake News Detection” competition datasets that contains 8560 posts about the COVID-19 pandemic. We used NLTK packages and TF-IDF Vectorization to preprocess the dataset before fitting in the models. After prediction Lime was used to interpret the models. </li>
-  
-  <li> <h3>Hybrid Ensemble Model GeneralPosts:</h3> This is one of the codes I compiled for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here a hybrid model consisting of 25 instance of 5 Different Models (SVM, XGBoost, Decision Tree Classifer, Extra Tree Classifier and Random Forest Classifer) with 5 instance from each model with different parameters was implemented. We used publically available Twitter15 and Twitter 16 datasets released by J. Ma, W. Gao, and K.-F. Wong, “Detect rumors in microblog posts using propagation structure via kernel learning,” in Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017, pp. 708–717. NLTK packages and TF-IDF Vectorization is used to preprocess the dataset before fitting in the models. After prediction Lime is used to interpret the models. </li>
-  
-  <li> <h3>LSTM COVIDPosts:</h3> This is one of the codes I built for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here a LSTM(Long Short-Term Memory) a deep Learning framework is implemented. We used “Constraint@AAAI2021 - COVID19 Fake News Detection” competition datasets that contains 8560 posts about the COVID-19 pandemic. NLTK packages is used to preprocess the dataset before fitting in the models. After prediction Lime is used to interpret our models. </li>
-  
-  <li> <h3>LSTM GeneralPosts:</h3> This is one of the codes I facilitated for our bachelor's thesis <a href="https://ieeexplore.ieee.org/document/9666567">'Demystifying Black box Learning Models of Rumor Detection from Social Media Posts'</a>. Here a LSTM(Long Short-Term Memory) a deep Learning framework is implemented.  We used publically available Twitter15 and Twitter 16 datasets released by J. Ma, W. Gao, and K.-F. Wong, “Detect rumors in microblog posts using propagation structure via kernel learning,” in Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics, 2017, pp. 708–717.NLTK packages is used to preprocess the dataset before fitting in the models. After prediction Lime is used to interpret the models. </li>
-  
-</ol>
+This repository contains codes for machine learning, deep learning, and data science projects completed for academic, self-learning, and hobby purposes. The projects are presented in the form of Jupyter and Colab notebooks.
 
+## Contents
 
-<!-- Here are the codes we did for Demystifying Black box Learning Models of Rumor Detection from Social Media Posts
-There is two types of dataset used one in for general social media posts and another one is Covid-19 related Social Media Posts. We used five Machine Learning Models ( SVC, XGBoost, Random Forest, Extra Random Tree Classifier, Decision Tree Classifier) separately and also created a hybrid ensemble model consisting to all five models five times and two Deep Learning Models (LSTM and Bert) to predict rumor and non-rumor labels from that posts in the datasets. -->
+### Code for Demystifying Black-box Learning Models of Rumor Detection from Social Media Posts
+
+This directory contains various models and techniques used for the task of rumor detection from social media posts. The models include:
+
+- SVM, XGBoost, Decision Tree Classifier, Extra Tree Classifier, and Random Forest Classifier
+- BERT (Bidirectional Encoder Representations from Transformers)
+- LSTM (Long Short-Term Memory)
+- Hybrid Ensemble Model consisting of 25 instances of 5 different models with 5 instances from each model with different parameters
+
+The datasets used for these models are from the “Constraint@AAAI2021 - COVID19 Fake News Detection” competition and publicly available Twitter15 and Twitter16 datasets.
+
+### Keras Tuner Image Classification with CIFAR-10
+
+This directory contains a Convolutional Neural Network (CNN) used to classify images in the CIFAR-10 dataset using the Keras Tuner library.
+
+### Image Classifications with VGG and ResNet on MNIST, CIFAR-10, and STL-10
+
+This directory contains six Jupyter notebooks implementing VGG and ResNet architectures for image classification tasks on three different datasets: MNIST, CIFAR-10, and STL-10. The notebooks are:
+
+1. CW3 Mini Project ResNet on CIFAR-10.ipynb
+2. CW3 Mini Project ResNet on MNIST.ipynb
+3. CW3 Mini Project ResNet on STL-10.ipynb
+4. CW3 Mini Project VGG on CIFAR-10.ipynb
+5. CW3 Mini Project VGG on MNIST.ipynb
+6. CW3 Mini Project VGG on STL-10.ipynb
+
+## Instructions
+
+Python versions of 3.x are supported. To install the necessary libraries, run this command in the project directory after cloning the repository:
+
+```bash
+pip install -r requirements.txt
